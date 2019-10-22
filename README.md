@@ -24,6 +24,7 @@ CryptoHomework(PKUss)
 ## 加密PKU logo
 ### 利用**gmssl**与**ImageMagic**加密pku logo
 #### 查看图片信息
+![https://github.com/agenthtb/cryptoHomework/blob/master/Image/pku.jpg]
 `identify pku.jpg`
 
 `pku.jpg JPEG 150x150 150x150+0+0 8-bit sRGB 10620B 0.000u 0:00.000`
