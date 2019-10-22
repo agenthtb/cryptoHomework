@@ -34,10 +34,13 @@ CryptoHomework(PKUss)
 
 #### 利用gmssl加密图片(密码为1901210642)
 `gmssl enc -sms4-ecb -e -in pku.rgba -out pku_ecb.rgba`
-
 `gmssl enc -sms4-cbc -e -in pku.rgba -out pku_cbc.rgba`
 
 #### 将加密后的rgba转为jpg1
 `convert -size 150x150 -depth 8 pku_ecb.rgba pku_ecb.jpg`
 
+![image](https://github.com/agenthtb/cryptoHomework/blob/master/Image/pku_ecb.jpg)
+
 `convert -size 150x150 -depth 8 pku_cbc.rgba pku_cbc.jpg`
+
+![image](https://github.com/agenthtb/cryptoHomework/blob/master/Image/pku_cbc.jpg)
